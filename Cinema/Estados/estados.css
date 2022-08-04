@@ -1,0 +1,24 @@
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+#inicio {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#titulo {
+    font-size: 35px;
+}
+
+.hoje {
+    color: darkred;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.amanha {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: 600;
+}
