@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background: #aaa;
+    width: 150px;
+    height: 70px;
+    padding: 30px;
+    border: 8px solid #111;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: rgba(34, 238, 85, 0.863);
+}
+
+h1 {
+    background: #84e;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    margin: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.884);
+    border-radius: 5px;
+    font-family: Lucida sans;
+    margin-top: 50px;
+}
