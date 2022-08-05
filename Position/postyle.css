@@ -1,0 +1,21 @@
+h1 {
+    margin: 0px;
+    padding: 10px;
+    background: lightblue;
+}
+
+.index1 {
+    position: relative;
+    background: lightskyblue;
+    top: 20px;
+}
+
+.index2 {
+    position: absolute;
+    background: lightgreen;
+    top: 35px;
+}
+
+.index3 {
+    z-index: 3; /* Só funciona com position!!! */
+}
