@@ -50,6 +50,12 @@ header img {
     color: #000000;
     cursor: pointer;
     text-transform: uppercase;
+    transition: 0.3s ease-out;
+}
+
+.menu a:hover {
+    border: 2px solid red;
+    border-radius: 4px;
 }
 
 .conteudo {
@@ -59,3 +65,36 @@ header img {
     border-radius: 4px;
 }
 
+.introducao {
+    background: #fff;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    justify-items: end;
+    gap: 20px;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: #e21;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.botao {
+    background: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.botao:hover {
+    background: rgb(206, 8, 8);
+}
