@@ -30,3 +30,32 @@ p {
     font-size: 20px;
     line-height: 1.3;
 }
+
+header img {
+    margin-bottom: 40px !important;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu a {
+    background: #ffffff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    border-radius: 4px;
+}
+
