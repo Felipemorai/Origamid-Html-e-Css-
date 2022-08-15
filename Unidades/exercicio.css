@@ -22,6 +22,12 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 p, h1, h2, h3 {
     margin: 0px;
 }
@@ -31,9 +37,10 @@ p {
     line-height: 1.3;
 }
 
-header img {
-    margin-bottom: 40px !important;
-    margin: auto;
+.header {
+    display: grid;
+    justify-items: center;
+    gap: 60px;
 }
 
 .menu {
@@ -44,6 +51,7 @@ header img {
 }
 
 .menu a {
+    display: block;
     background: #ffffff;
     padding: 15px 30px;
     border-radius: 4px;
