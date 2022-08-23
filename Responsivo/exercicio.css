@@ -99,6 +99,11 @@ p {
     right: -30px;
 }
 
+.introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .botao {
     background: #e21;
     color: #fff;
@@ -121,6 +126,7 @@ p {
     padding: 40px;
     align-self: center;
     background-image: url(../Position/img/onda.svg);
+    /* word-break: break-all; */
 }
 
 .vantagens {
@@ -161,50 +167,70 @@ p {
     object-position: top center;
 }
 
-@media (max-width: 1030px) {
-    .conteudo {
-        display: grid;
+@media (max-width: 1000px) {
+    .conteudo-vantagem {
         grid-template-columns: 1fr;
-        max-width: 500px;
-    }
-
-    h2 {
-        word-break: break-all;
-    }
-}
-
-@media (max-width: 700px) {
-    .menu {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+        max-width: 800px;
     }
 
     .conteudo {
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 400px;
+        max-width: 800px;
     }
 
-    h2 {
-        word-break: break-all;
+    .subtitulo {
+        text-align: center;
     }
 }
 
-@media (max-width: 570px) {
-    .menu {
+@media (max-width: 600px) {
+    body {
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .header {
+        gap: 35px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
 
     .conteudo {
-        display: grid;
         grid-template-columns: 1fr;
-        max-width: 320px;
     }
 
-    h2 {
-        word-break: break-all;
+    .subtitulo {
+        font-size: 3rem;
+    }
+
+    .introducao {
+        text-align: left;
+        justify-items: start;
+    }
+
+    .introducao::before {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .subtitulo {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .rodape p {
+        font-size: 1.2rem;
     }
 }
