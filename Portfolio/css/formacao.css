@@ -73,3 +73,34 @@
     font-size: 1.125rem;
     color: #a3a3a3;
 }
+
+.cursos {
+    margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.formacao-extra h3::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
+
+.cursos h3::before {
+    background: url("../img/cursos.svg")no-repeat center center;
+}
+
+.idiomas h3::before {
+    background: url("../img/idiomas.svg")no-repeat center center;
+}
