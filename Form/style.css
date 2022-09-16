@@ -23,18 +23,18 @@ input {
 button {
     display: block;
     margin-top: 30px;
-    padding: 7px 10px;
-    background: lightskyblue;
+    padding: 10px;
+    background: rgb(34, 158, 235);
     border: 1px solid lightskyblue;
-    color: #fff;
+    color: rgb(250, 248, 248);
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
 }
 
 button:hover {
-    background: rgb(89, 202, 240);
+    background: rgb(64, 194, 238);
     border: 1px solid rgb(89, 202, 240);
 }
 
@@ -62,4 +62,20 @@ section {
     margin: 0px;
     width: 20px;
     height: 18px;
+}
+
+select {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid rgb(110, 193, 245);
+    border-radius: 4px;
+    background: rgb(250, 248, 248);
+}
+
+textarea {
+    font-size: 1.2rem;
+    border: 2px solid rgb(110, 193, 245);
+    border-radius: 4px;
+    background: rgb(250, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
 }
