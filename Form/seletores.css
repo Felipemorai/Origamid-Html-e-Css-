@@ -1,0 +1,41 @@
+body {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    color: tomato;
+    padding: 10px;
+}
+
+#produtos {
+    color: lightgreen;
+}
+
+.titulo.teste {
+    color: blue;
+}
+
+#intro #servicos {
+    color: aqua;
+}
+
+#servicos {
+    color: red;
+}
+
+html body section h2 {
+    border-left: 8px solid rgb(192, 99, 238);
+}
+
+body section h2 {
+    border-left: 8px solid lightsalmon !important;
+}
+body section h2:hover {
+    border-left: 8px solid lightpink !important;
+}
+
+h2 {
+    color:rgb(70, 69, 69) !important;
+    letter-spacing: 1px;
+}
