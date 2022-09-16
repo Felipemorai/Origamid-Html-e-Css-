@@ -1,0 +1,23 @@
+* {
+    font-family: Arial;
+}
+
+:root {
+    --roxo: #84e;
+    --borda: 2px solid lightblue;
+    --h1: 2.5rem;
+    --p: 1.2rem;
+    --padding: 10px;
+}
+
+h1 {
+    color: var(--roxo);
+    font-size: var(--h1);
+}
+
+p {
+    color: var(--roxo);
+    border: var(--borda);
+    padding: var(--padding);
+    font-size: var(--p);
+}
