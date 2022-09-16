@@ -1,0 +1,50 @@
+[required] {
+    border: 2px solid tomato;
+}
+
+/* p[required] */
+
+a[href="#contato"] {
+    border: 2px solid greenyellow;
+}
+
+/* que comece com. usa ^ */
+[href^="#"] {
+    background: tomato;
+}
+
+/* que termine com, usa $ */
+[href$=".com"] {
+    background: plum;
+}
+
+/* Selecionar apenas o filho direto */
+section > h2 {
+    color:darkorchid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > h2 {
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+article {
+    background: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    color:dimgray;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p + p {
+    margin-top: 20px;
+}
+
+/* article p:last-child {
+    margin-bottom: 0px;
+} */
