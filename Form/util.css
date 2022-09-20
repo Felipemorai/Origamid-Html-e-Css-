@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, p {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #06f;
+    margin-bottom: 40px;
+}
+
+.seguros {
+    display: flex;
+    gap: 60px;
+}
+
+.seguros div {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+    transition: 0.3s ease-out;
+}
+
+.seguros div:hover {
+    border: 1px solid #06f;
+}
+
+.seguros h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #06f;
+}
+
+.seguros p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #06f;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #06f;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 14px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    box-shadow: 2px 3px 6px lightgray;
+}
