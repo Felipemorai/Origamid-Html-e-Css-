@@ -46,3 +46,16 @@ logLivro();
 
 /* Erro, pois a constante livro não existe */
 console.log(logLivro);
+
+function logCurso5(nome, horas) {
+    console.log(nome, horas, "horas");
+    return {
+        nome,
+        horas,
+    }
+}
+
+logCurso5("JavaScript", "40");
+const retorno = logCurso5("HTML", "20");
+
+console.log(retorno);
