@@ -17,10 +17,22 @@ if (false) {
 
 /* Boolean */
 const elemento = document.querySelector('body');
+const elementoNaoExiste = document.querySelector('article');
+console.log(Boolean(elemento));
+console.log(Boolean(elementoNaoExiste));
 
-if (elemento) {
-    console.log('teste');
-}
+const texto = 'JavaScript';
+const textoVazio = '';
+console.log(Boolean(texto));
+console.log(Boolean(textoVazio));
+
+const numero = 20;
+const numeroZero = 0;
+console.log(Boolean(numero));
+console.log(Boolean(numeroZero));
+
+console.log(Boolean(undefined));
+console.log(Boolean(null));
 
 /* Operadores Lógicos */
 // Podemos verificar mais de uma condição com o || (ou) e && (e).
