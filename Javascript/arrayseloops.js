@@ -15,3 +15,34 @@ for (let index = 0; index < lista2.length; index++) {
     const item = lista2[index];
     body.innerHTML += '<li>' + lista2[index] + '</li>';
 }
+
+// ForEach
+function adicionarBody(item) {
+    body.innerHTML += "<li>" + item + "</li>"
+}
+
+lista.forEach(adicionarBody);
+
+function logarItems(item, index) {
+    console.log(item, 'no index:', index);
+}
+
+lista2.forEach(logarItems);
+
+// você pode escrever a função no argumento:
+lista.forEach(function (item, index) {
+    console.log(item, 'no index', index);
+})
+
+// querySelectorAll
+const links = document.querySelectorAll('nav   a');
+
+function logHref(item) {
+    const href = item.href;
+    console.log(href);
+}
+
+links.forEach(logHref);
+
+// Primeiro link
+console.log(links[0]);
