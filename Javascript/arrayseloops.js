@@ -46,3 +46,25 @@ links.forEach(logHref);
 
 // Primeiro link
 console.log(links[0]);
+
+// Métodos e propriedades
+// retorna o total
+const total = lista.length
+
+// remove o último
+const ultimo = lista.pop();
+
+// remove o primeiros
+const primeiro = lista.shift();
+
+// adiciona ao final
+lista.push('PHP');
+
+console.log(lista);
+
+// Array-like
+const linkArray = Array.from(document.querySelectorAll('nav a'));
+
+// dar erro se não usar o Array.from
+linkArray.pop();
+console.log(linkArray);
